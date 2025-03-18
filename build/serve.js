@@ -14,8 +14,8 @@ await ctx.watch();
 
 const { host, port } = await ctx.serve({
   port: 5500,
-  servedir: 'www',
-  fallback: "www/index.html"
+  servedir: 'docs',
+  fallback: "docs/index.html"
 });
 
 console.log(`Serving app at http://localhost:${port}.`);
