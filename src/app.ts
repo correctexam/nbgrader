@@ -132,4 +132,4 @@ if (urlParams.has('filename'))
 
 console.error(filename)
 
-main('/input/'+filename+'.html',cell,canvas).then(e=> console.log("affichage"));
+main('/nbgrader/input/'+filename+'.html',cell,canvas).then(e=> console.log("affichage"));
